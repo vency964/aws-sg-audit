@@ -11,7 +11,7 @@ Installation of boto module:
 
 Install via pip:
 
-  - $ pip install boto
+  - $ pip install boto3
 
 Install from source:
 
