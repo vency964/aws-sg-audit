@@ -16,11 +16,11 @@ def cmd_args():
 	try:
 		opts, args = getopt.getopt(sys.argv[1:],"hn:p:o:",["network=","port=","out="] )
 	except getopt.GetoptError:
-		print ('scanner.py --network <IP/CIDR> --port <Port> --out <outputfile>')
+		print ('net-scan.py --network <IP/CIDR> --port <Port> --out <outputfile>')
 		sys.exit()
 	for opt, arg in opts:
 		if opt in ("-h"):
-			print ('scanner.py --network <IP/CIDR> --port <Port> --out <outputfile>')
+			print ('net-scan.py --network <IP/CIDR> --port <Port> --out <outputfile>')
 			sys.exit()
 		elif opt in ("-n", "--network"):
 			network = arg
