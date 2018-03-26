@@ -9,5 +9,5 @@ Requirments:
 
 Using:
 
-- $ net-scan.py --network <IP/CIDR> --port <Port> --out <outputfile>
+- $ net-scan.py --network <IP/CIDR> --port < Port Number > --out < outputfile >
 #
