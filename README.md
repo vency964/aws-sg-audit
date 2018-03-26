@@ -7,15 +7,7 @@ Requirments:
 
 #
 
-Installation of boto module:
+Using:
 
-Install via pip:
-
-  - $ pip install boto3
-
-Install from source:
-
-- $ git clone git://github.com/boto/boto.git
-- $ cd boto
-- $ python setup.py install
+- $ net-scan.py --network <IP/CIDR> --port <Port> --out <outputfile>
 #
